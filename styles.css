@@ -3,8 +3,15 @@ body {
   font-family: "Plus Jakarta Sans", sans-serif;
   display: flex;
   height: 100vh;
+  width: 100vw;
   margin: 0;
   padding: 0;
+}
+
+.main-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Sidebar Styling */
@@ -36,8 +43,17 @@ body {
   border-radius: 0 50px 50px 0;
 }
 
-@media (max-width: 425px) {
+/* Responsive to hide sidebar on mobile screens */
+@media (max-width: 426px) {
   .sidebar {
     display: none;
   }
+}
+
+/* Header Styling */
+.header {
+  display: flex;
+  justify-content: start;
+  background-color: #ffffff;
+  width: 100%;
 }
