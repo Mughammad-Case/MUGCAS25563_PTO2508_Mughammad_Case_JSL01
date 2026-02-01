@@ -18,29 +18,36 @@ body {
 .sidebar {
   width: 250px;
   background-color: #ffffff;
+  border-right: 1px solid #f4f7fd;
 }
 
 /* Logo within Sidebar Styling */
 .sidebar img {
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
+  padding: 20px;
 }
 
 .sidebar h4 {
   font-size: 10px;
   color: #828fa3;
-  margin-bottom: 20px;
+  margin-left: 22px;
+  letter-spacing: 2.5px;
 }
 
 .sidebar button {
   background-color: #635fc7;
   color: #ffffff;
   border: none;
-  padding: 10px 15px;
-  border-radius: 24px;
-  border-right: 0%;
-  font-size: 14px;
+  padding: 12px 20px 12px 0;
   border-radius: 0 50px 50px 0;
+  font-size: 12px;
+  width: 90%;
+  cursor: pointer;
+}
+
+.sidebar button:hover {
+  background-color: #a8a4ff;
 }
 
 /* Responsive to hide sidebar on mobile screens */
@@ -63,7 +70,6 @@ main {
   display: flex;
   padding: 20px;
   gap: 20px;
-  overflow-x: auto;
 }
 
 .column-heading {
