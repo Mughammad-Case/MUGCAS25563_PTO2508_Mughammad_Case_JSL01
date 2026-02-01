@@ -2,25 +2,29 @@
 
 ## Figma Design Link
 
-Before starting this project, refer to the provided Figma design for layout, styling, and responsiveness details: https://www.figma.com/design/y7bFCUYL5ZHfPeojACBXg2/Challenge-1-%7C-JSL?node-id=0-1&t=yngAIXXKnJfH7Jj3-1
+This challenge required replicating the provided Figma design with a strong focus on layout accuracy, styling, and responsive behavior.
+
+**Figma Design Link:** https://www.figma.com/design/y7bFCUYL5ZHfPeojACBXg2/Challenge-1-%7C-JSL?node-id=0-1&t=yngAIXXKnJfH7Jj3-1
 
 ## Overview
 
-This project involves developing a **visually accurate and fully responsive Kanban board** that aligns with the provided **Figma design**. The board should be structured into multiple columns and include task cards, a static side panel, and a well-defined theme to ensure a **professional and polished user experience.**
+The goal of this project was to build a visually precise and fully responsive Kanban board UI that closely matches the provided Figma design.The interface consists of multiple task columns, individual task cards, and a static sidebar, all styled to deliver a clean and professional user experience.
 
-## Before You Begin
+## Technologies Used
 
-**Check the project user stories in your student dashboard** before you start building.
+- HTML5
+- CSS3
+- Google Fonts - (Plus Jakarta Sans)
 
-## Key Objectives
+## Features
 
-- Implement a **favicon and page title** that match the application’s theme for a professional look.
-- Create a **Kanban board with multiple columns** (e.g., "To Do", "In Progress", "Done") that **exactly replicates** the Figma design layout.
-- Ensure the **board’s layout, colours, typography, and spacing** strictly follow the Figma specifications for visual consistency.
-- Develop a **fully responsive** board that adapts seamlessly to **both laptops and mobile devices**, mirroring the Figma design’s responsive behavior.
-- Display **tasks as individual cards** within their respective columns, ensuring their design (borders, shadows, padding) follows the Figma guidelines for clarity and appeal.
-- Include **titles on all task cards** to provide clear task descriptions.
-- Implement a **static side panel with** the correct **icons, text, and branding elements** as per the Figma layout for a structured and professional appearance.
+- Added the **favicon and page title** to align with the application’s theme and enhance professionalism.
+- Built a multi-column Kanban board (e.g., To Do, In Progress, Done) that accurately mirrors the Figma layout.
+- Mobile Optimization: - Sidebar hidden on mobile devices (≤426px)
+                       - Vertical column stacking on smaller screens
+                       - Logo appears in header on mobile instead of board title
+- Developed a fully responsive layout that adapts smoothly across mobile, tablet, and desktop screen sizes.
+- Included clear titles on all task cards to improve readability and usability.
 
 ## 📱 Mobile View
 
@@ -29,7 +33,3 @@ This project involves developing a **visually accurate and fully responsive Kanb
 ## 💻 Desktop View
 
 ![Desktop UI](./explainer-images/JSL01-Desktop.png)
-
-## Expected Outcome
-
-The final application will present a **visually cohesive, user-friendly, and responsive Kanban board** that aligns precisely with the provided Figma design. It will include **consistent styling**, **a well-structured layout, and intuitive task organization** to enhance usability across different devices.
