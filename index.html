@@ -36,41 +36,45 @@
       </header>
 
       <div>
-        <main>
+        <main class="task-columns">
           <!-- Task Columns: Display tasks grouped by status (TODO, DOING, DONE). -->
+
+          <!-- TODO Column -->
           <div>
-            <div>
-              <span></span>
-              <h4>TODO</h4>
+            <div class="column-heading">
+              <span id="blue-column-dot"></span>
+              <h4>TODO (4)</h4>
             </div>
             <!-- Tasks container for TODO -->
             <div>
-              <div>Launch Epic Career 🚀</div>
-              <div>Learn Data Structures and Algorithms 📚</div>
+              <div class="task-card">Launch Epic Career 🚀</div>
+              <div class="task-card">Conquer React ⚛️</div>
+              <div class="task-card">Understand Databases ⚙️</div>
+              <div class="task-card">Crush Frameworks 🖼️</div>
             </div>
           </div>
           <!-- DOING Column -->
           <div>
-            <div>
-              <span></span>
-              <h4>DOING</h4>
+            <div class="column-heading">
+              <span id="purple-column-dot"></span>
+              <h4>DOING (2)</h4>
             </div>
             <!-- Tasks container for DOING -->
             <div>
-              <div>Master JavaScript 💛</div>
-              <div>Keep on Going 🏆</div>
+              <div class="task-card">Master JavaScript 💛</div>
+              <div class="task-card">Never Give Up 🏆</div>
             </div>
           </div>
           <!-- DONE Column -->
           <div>
-            <div>
-              <span></span>
-              <h4>DONE</h4>
+            <div class="column-heading">
+              <span id="green-column-dot"></span>
+              <h4>DONE (2)</h4>
             </div>
             <!-- Tasks container for DONE -->
             <div>
-              <div>Contribute to Open Source Projects 🌐</div>
-              <div>Build Portfolio Projects 🛠️</div>
+              <div class="task-card">Explore ES6 Features 🚀</div>
+              <div class="task-card">Have fun 🥳</div>
             </div>
           </div>
         </main>
